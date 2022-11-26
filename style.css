@@ -1,0 +1,125 @@
+
+        .facebook{
+            display: flex;
+            background-color: rgba(50, 48, 48, 0.067);
+            /* border: 1px solid red; */
+            height: 600px;
+            width: 100%;
+        }
+
+        .f-left{
+          display: grid;
+          place-items: center;
+          width: 50%;
+          /* border: 1px solid green;   */
+          height: 100%; 
+        }
+        
+        .f-sub-left{
+            /* border: 1px solid blue; */
+            height: 300px;
+            width: 90%;
+        }
+        .left-h1{
+            font-size:55px;
+            margin: 50px 120px 10px 120px;
+            color: #1877f2;
+        }
+        .left-h4{
+            font-size:24px;
+            margin: 0px 120px 0px 120px;
+            font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            width: 75%;
+        }
+
+        .f-right{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          /* border: 1px solid green;   */
+          height: 100%; 
+        }
+
+        .login{
+            /* border: 1px solid blue; */
+            height: 300px;
+            width: 50%;
+            border-radius: 6px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.189);
+            background-color: white;
+        }
+        form{
+            display: grid;
+            place-items: center;
+        }
+        form input{
+            width: 90%;
+            height: 35px;
+            border-radius: 4px;
+            border: 1px solid rgba(128, 128, 128, 0.541);
+            margin: 10px 15px;
+        }
+
+        
+        input::placeholder{
+            padding-left: 10px;
+            color: rgba(0, 0, 0, 0.707);
+            font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+        }
+        h5{
+            text-align: center;
+            margin: 5px 0;
+        }
+        h5 a{
+            text-decoration: none;
+            font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            font-size: 12px;
+        }
+        h5 a:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        hr{
+            width: 90%;
+            opacity: .5;
+        }
+
+        .login-button{
+            width: 91%;
+            font-size: 15px;
+            height: 35px;
+            border-radius: 4px;
+            color: white;
+            font-weight: 500;
+            background-color: #1877f2;
+            border: 1px solid grey;
+            margin: 10px 15px;
+        }
+
+        .new-a-btn{
+            width: 50%;
+            font-size: 15px;
+            height: 35px;
+            border-radius: 4px;
+            color: white;
+            font-weight: 500;
+            border:none;
+            margin: 10px 15px;
+            color: white;
+            background-color: #42b72a;
+        }
+        .login-button:hover,.new-a-btn:hover{
+            cursor: pointer;
+            opacity: 96%;
+        }
+        .below-title{
+            margin-top: 15px;
+            font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+            color: black;
+        }
